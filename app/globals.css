@@ -30,3 +30,60 @@ body {
 .divider {
   border-top: 1px solid #D9D2BD;
 }
+
+.legal-prose {
+  color: #1f1f1f;
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+.legal-prose h2 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: -0.015em;
+  margin-top: 2.4em;
+  margin-bottom: 0.6em;
+  color: #171717;
+}
+.legal-prose h2:first-child {
+  margin-top: 0;
+}
+.legal-prose h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 1.8em;
+  margin-bottom: 0.4em;
+  color: #171717;
+}
+.legal-prose p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #3a3a3a;
+}
+.legal-prose ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+.legal-prose ul li {
+  padding-left: 1.25em;
+  position: relative;
+  color: #3a3a3a;
+  margin-bottom: 0.4em;
+}
+.legal-prose ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: #D9D2BD;
+}
+.legal-prose a {
+  color: #1F4D3C;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+.legal-prose strong {
+  color: #171717;
+  font-weight: 500;
+}

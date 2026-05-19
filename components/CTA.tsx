@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function CTA() {
   return (
     <section id="book" className="relative overflow-hidden bg-coal text-cream-50">
@@ -23,18 +25,18 @@ export function CTA() {
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-          <a
-            href="#pricing"
+          <Link
+            href="/pricing"
             className="rounded-md bg-cream-50 px-5 py-3 text-[14px] font-medium text-ink transition-colors hover:bg-cream-100"
           >
             See pricing →
-          </a>
-          <a
-            href="#book-call"
+          </Link>
+          <Link
+            href="/book"
             className="rounded-md border border-cream-50/20 bg-forest px-5 py-3 text-[14px] font-medium text-cream-50 transition-colors hover:bg-forest-light"
           >
             Book a 15-min call
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -112,7 +112,7 @@ export default function ServicesPage() {
             See pricing →
           </Link>
           <Link
-            href="/#book"
+            href="/book"
             className="text-[14px] font-medium text-ink underline decoration-1 underline-offset-[6px] hover:text-forest"
           >
             Book a 15-min call

@@ -35,12 +35,12 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <a
-          href="#book"
+        <Link
+          href="/book"
           className="rounded-md bg-forest px-4 py-2.5 text-[13px] font-medium text-cream-50 shadow-[0_1px_0_rgba(0,0,0,0.04)] transition-colors hover:bg-forest-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
         >
           Book a 15-min call
-        </a>
+        </Link>
       </div>
     </header>
   );

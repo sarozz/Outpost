@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const tiers = [
   {
     name: "Starter",
@@ -67,8 +69,8 @@ export function Pricing() {
                 {t.blurb}
               </p>
 
-              <a
-                href="#book"
+              <Link
+                href="/book"
                 className={[
                   "mt-6 inline-flex items-center justify-center rounded-md px-4 py-2.5 text-[13px] font-medium transition-colors",
                   t.popular
@@ -77,7 +79,7 @@ export function Pricing() {
                 ].join(" ")}
               >
                 Choose {t.name}
-              </a>
+              </Link>
             </div>
           ))}
         </div>
