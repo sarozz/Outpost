@@ -2,25 +2,25 @@ const columns = [
   {
     heading: "Product",
     links: [
-      { label: "How it works", href: "#how-it-works" },
-      { label: "Services", href: "#services" },
-      { label: "Pricing", href: "#pricing" },
+      { label: "How it works", href: "/#how-it-works" },
+      { label: "Services", href: "/services" },
+      { label: "Pricing", href: "/pricing" },
     ],
   },
   {
     heading: "Company",
     links: [
-      { label: "About", href: "#about" },
-      { label: "Trust", href: "#trust" },
-      { label: "Contact", href: "#contact" },
+      { label: "About", href: "/about" },
+      { label: "Trust", href: "/trust" },
+      { label: "Contact", href: "mailto:hello@outpost.com.au" },
     ],
   },
   {
     heading: "Legal",
     links: [
-      { label: "Privacy Policy", href: "#privacy" },
-      { label: "Terms", href: "#terms" },
-      { label: "Data Handling", href: "#data" },
+      { label: "Privacy Policy", href: "/legal/privacy" },
+      { label: "Terms", href: "/legal/terms" },
+      { label: "Data Handling", href: "/trust#data" },
     ],
   },
 ];
