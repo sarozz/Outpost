@@ -4,7 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { CTA } from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: "Services — Outpost",
+  title: "Services",
   description:
     "80+ tasks your Outpost assistant can run end-to-end. Inbox & calendar, lead generation, customer calls, research, admin & data, and more.",
 };

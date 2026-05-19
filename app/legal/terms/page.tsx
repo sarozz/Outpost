@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Outpost",
+  title: "Terms of Service",
   description:
     "The terms on which Outpost Admin Pty Ltd provides its services to Australian small businesses.",
 };

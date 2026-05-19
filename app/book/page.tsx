@@ -3,7 +3,7 @@ import { PageHero } from "@/components/PageHero";
 import { BookEmbed } from "@/components/BookEmbed";
 
 export const metadata: Metadata = {
-  title: "Book a 15-min call — Outpost",
+  title: "Book a 15-min call",
   description:
     "Pick a 15-minute slot. We'll answer your questions, talk through which tier fits, and — if it's a fit — match you to an assistant within 48 hours.",
 };

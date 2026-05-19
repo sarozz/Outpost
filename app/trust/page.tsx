@@ -4,7 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { CTA } from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: "Trust — Outpost",
+  title: "Trust",
   description:
     "How Outpost handles your data, who can see it, where it lives, and what happens when you leave. Privacy Act-aligned, AU-hosted, insured.",
 };

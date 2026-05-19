@@ -4,7 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { CTA } from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: "About — Outpost",
+  title: "About",
   description:
     "Why we built Outpost. Australian-managed offshore admin for small businesses, run by a small team in Perth, Kathmandu, and Bengaluru.",
 };

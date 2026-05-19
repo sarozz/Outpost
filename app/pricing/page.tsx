@@ -4,7 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { CTA } from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: "Pricing — Outpost",
+  title: "Pricing",
   description:
     "Three public tiers. From A$220/mo to A$1,440/mo. Hourly rate falls as you commit. No call required to sign up.",
 };

@@ -12,7 +12,7 @@ const columns = [
     links: [
       { label: "About", href: "/about" },
       { label: "Trust", href: "/trust" },
-      { label: "Contact", href: "mailto:hello@outpost.com.au" },
+      { label: "Contact", href: "/contact" },
     ],
   },
   {

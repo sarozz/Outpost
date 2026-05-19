@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Outpost",
+  title: "Privacy Policy",
   description:
     "How Outpost Admin Pty Ltd collects, uses, stores, and discloses personal information under the Australian Privacy Principles.",
 };
