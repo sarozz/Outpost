@@ -30,25 +30,34 @@ export function HowItWorks() {
     <section id="how-it-works" className="border-b border-line/60">
       <div className="mx-auto max-w-page px-6 py-16 md:px-10 md:py-24">
         <div className="eyebrow mb-4">How it works</div>
-        <h2 className="max-w-[22ch] font-serif text-[32px] leading-[1.1] tracking-[-0.01em] text-ink md:text-[44px]">
+        <h2 className="max-w-[22ch] font-serif text-[32px] font-medium leading-[1.1] tracking-[-0.015em] text-ink md:text-[44px]">
           From sign-up to your first completed task — in under forty-eight hours.
         </h2>
 
-        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {steps.map((s) => (
-            <div
+        <ol className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {steps.map((s, i) => (
+            <li
               key={s.n}
-              className="flex flex-col rounded-xl border border-line bg-cream-50 p-6"
+              className="group relative flex flex-col rounded-xl border border-line bg-cream-50 p-6 transition-colors hover:border-forest/30"
             >
-              <div className="font-serif text-[44px] leading-none text-ink">{s.n}</div>
-              <div className="mt-5 text-[15px] font-medium text-ink">{s.title}</div>
-              <div className="mt-1.5 text-[13px] leading-relaxed text-ink-muted">{s.body}</div>
-              <div className="mt-5 inline-flex w-fit rounded-full border border-line bg-cream-100 px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.14em] text-ink-muted">
+              <div className="flex items-baseline justify-between">
+                <span className="font-serif text-[52px] font-medium leading-none tracking-[-0.02em] text-ink">
+                  {s.n}
+                </span>
+                <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink-subtle">
+                  {String(i + 1).padStart(2, "0")} / 04
+                </span>
+              </div>
+              <div className="mt-6 text-[15px] font-medium text-ink">{s.title}</div>
+              <div className="mt-1.5 text-[13px] leading-relaxed text-ink-muted">
+                {s.body}
+              </div>
+              <div className="mt-6 inline-flex w-fit rounded-full border border-line bg-cream-100 px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.14em] text-ink-muted">
                 {s.chip}
               </div>
-            </div>
+            </li>
           ))}
-        </div>
+        </ol>
       </div>
     </section>
   );

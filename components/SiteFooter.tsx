@@ -31,8 +31,8 @@ export function SiteFooter() {
       <div className="mx-auto max-w-page px-6 py-14 md:px-10">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <div className="font-serif text-[22px] font-medium tracking-tight text-ink">
-              Outpost<span className="text-forest">.</span>
+            <div className="inline-flex items-baseline font-serif text-[22px] font-medium tracking-tight text-ink">
+              Outpost<span className="text-tomato">.</span>
             </div>
             <p className="mt-3 max-w-[32ch] text-[13px] leading-relaxed text-ink-muted">
               Australian-managed offshore admin for small businesses.
@@ -47,7 +47,7 @@ export function SiteFooter() {
                   <li key={l.label}>
                     <a
                       href={l.href}
-                      className="text-[13px] text-ink/80 hover:text-ink"
+                      className="text-[13px] text-ink/80 transition-colors hover:text-ink"
                     >
                       {l.label}
                     </a>
@@ -63,7 +63,10 @@ export function SiteFooter() {
             © 2026 Outpost Admin Pty Ltd <span className="text-line">·</span> ABN 00
             000 000 000 <span className="text-line">·</span> Perth, WA
           </div>
-          <a href="mailto:hello@outpost.com.au" className="hover:text-ink">
+          <a
+            href="mailto:hello@outpost.com.au"
+            className="transition-colors hover:text-ink"
+          >
             hello@outpost.com.au
           </a>
         </div>

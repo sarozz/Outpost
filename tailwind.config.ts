@@ -30,6 +30,10 @@ const config: Config = {
         accent: {
           DEFAULT: "#E2734B",
         },
+        tomato: {
+          DEFAULT: "#D6452F",
+          dark: "#B83520",
+        },
         line: "#D9D2BD",
       },
       fontFamily: {
